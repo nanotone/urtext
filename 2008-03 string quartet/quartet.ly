@@ -5,15 +5,16 @@
 
 \header{
 	title = "String Quartet"
+	piece = "Allegro ma non troppo"
 	composer = "Yang Yang"
 	tagline = ##f
 }
 \paper {
-	%ragged-last-bottom = true
-	%system-count = 4
+	ragged-last-bottom = false
 	#(set-paper-size "letter")
 }
 
+#(set-global-staff-size 17.82)
 \score {
 	\new StaffGroup {
 		<<
