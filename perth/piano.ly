@@ -119,15 +119,16 @@ rhOne = \relative c''' {
         <bes es> <g f> <bes es> <g f> <bes es> <g f> <bes es> <g f> <bes es> <g f> <bes es> <g f> |
     \normalsize <<{ d'16 bes d, bes' s8 \ottava #1 <d' c>16[ s <d c>] s <d c>8 r \trips {r16 <d c> bes} } \\
                   { <d, bes d,>8\arpeggio r  <d c>16[ es] s <bes' aes>[  s <bes aes>] }>> |
-    <<{ <d c>16 s <d c>8 }\\{ s16 <c bes> }>> \ottava #0 r4
+    <<{ <d c>16 s <d c bes>8 }\\{ s16 <c bes> }>> \ottava #0 r4
         \tiny <es, bes'>16*2/3 bes <es bes'> bes <es bes'> bes  <es aes> aes, <es' aes> aes, <es' aes> aes, |
+
     <aes es'> <g f> <aes es'> <g f> <aes es'> <g f>  <bes d> f <bes d> f <bes d> f
         <bes d> f <bes d> f <bes d> f          <bes d> f <bes d> f <bes d> f |
     <bes d> f <bes d> f <bes d> f <bes d> f <bes d> f <bes d> f
         <bes d> es, <bes' d> es, <bes' d> es, <bes' d> es, <bes' d> es, <bes' d> es, |
     \normalsize <<{ es'16 bes f bes  s8 \ottava #1 <es' d>16[ s  <es d>] s  <es d>8 r \trips {r16 <es d> c} } \\
                   { <es, bes f >8\arpeggio r  <es d>16[ f] s <c' bes>[  s <c bes>] }>> |
-    <<{ <es d>16 s <es d>8 }\\{ s16 <d c> }>> \ottava #0 r4 \tiny es,,,16*2/3 c es c es c es c es c es c |
+    <<{ <es d>16 s <es d c>8 }\\{ s16 <d c> }>> \ottava #0 r4 \tiny es,,,16*2/3 c es c es c es c es c es c |
 
     es c es c es c es c es c es c  <es g> c <es g> c <es g> c <g' bes> es <g bes> es <g bes> es |
     <f bes> es <f bes> es <f bes> es <f bes> es <f bes> es <f bes> es
@@ -136,6 +137,7 @@ rhOne = \relative c''' {
                 \su <es f>   d <es f> d \sd <bes' aes> c <bes aes> c |
     \tiny \sn <es f>16*2/3 d <es f> d <es f> d <es f> d <es f> d <es f> d
         <es f> c <es f> c <es f> c <es f> c <es f> c <es f> c |
+
     <bes es> c <bes es> c <bes es> c <bes es> c <bes es> c <bes es> c
         <bes d> c <bes d> c <bes d> c <bes d> c <bes d> c <bes d> c |
     <bes aes> c <bes aes> c <bes aes> c <bes aes> c <bes aes> c <bes aes> c
@@ -384,22 +386,29 @@ rhRefrain = \relative c'' {
 
     \sd es \lh\su c,, aes' es  \rh\sn bes' c aes' es  bes' c aes' es  bes' c aes' es |
     c' es, bes' d,  c es, bes' d,  c es, bes' d,  c es, bes' d, |
-    r16 d bes' g  es' d bes' g  es' d bes' g  es' d \ottava #1 bes' g |
-    es'4  r  <f, c>16 g <aes c,>8~  aes16 <g c> f es |
+    r16 es bes' g  d' es bes' g  <<{ d'8 es }\\{ d16 bes es g, }>> r8. \su g16[ |
+    <c d>16] \sd es[ <aes bes>] \su c  <f g> r8.  \sn <f c>16 g <aes c,>8~  aes16 <g bes> f es |
 
-    \tiny <aes es>16*2/3 <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c>
-        <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> |
-    <es, d>    <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes>
-        <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> |
-    <d c>     <es bes'> <d c> <es bes'> <d c> <es bes'> <d c> <es bes'> <d c> <es bes'> <d c> <es bes'>
-        <d c> <es bes'> <d c> <es bes'> <d c> <es bes'> <d c>16*4/5 <es bes'> <d c> <es bes'> <d c> |
-    <es bes'>4 \normalsize \ottava #0 r4
-        \lh\su <g,, f c f,>16 \rh\sd <aes c e aes>8 \lh\su\bass <g, f c f,>16 \rh\sd <aes c e aes>8 <g c g'>16 f' |
+    <<{ \ottava #1 \tiny
+        <aes es>16*2/3 <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c>
+            <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> <aes es> <bes c> |
+        \ottava #0
+        <es, d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes>
+            <es d>    <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> <es d> <f bes> |
+        <d c>     <es bes'> <d c> <es bes'> <d c> <es bes'> <d c> <es bes'> <d c> <es bes'> <d c> <es bes'>
+            <d c> <es bes'> <d c> <es bes'> <d c> <es bes'> <d c>16*4/5 <es bes'> <d c> <es bes'> <d c> |
+        <es bes'>4
+    }\\
+      { s1 |
+        <d, c aes>16 es <d c aes>8~ <d c aes>2.~ |
+        <d c aes>2. <c f bes>4~ |
+        <c f bes>4
+    }>>
+        r4 \lh\su <g f c f,>16 \rh\sd <aes c e aes>8 \lh\su\bass <g, f c f,>16 \rh\sd <aes c e aes>8 <g c g'>16 f' |
     <es g, es>1~ | <es g, es>2
         \lh\su <es bes es,>16 \rh\sd <f g b g'>8 \lh\su <es, bes es,>16 \rh\sd <f g b g'>4 |
     \bass \time 2/4 <d d'>4 <c c'>~ |
-    \time 4/4 <c c'>1~ | <c c'>\fermata \bar "|."
-
+    \time 4/4 <c c'>1~ | <c c'>~ | <c c'> \fermata \bar "|."
 }
 
 lhRefrain = \relative c, {
@@ -408,12 +417,12 @@ lhRefrain = \relative c, {
     \sd <c,, g'>16 es' s8  <c g'>16 es' s8  <d c> <es g,>  <c, g'>16 d' s8 |
     \treb <c g'>16 d' s8  s4  \su <f, g c, f,>16 \rh\sd <g' f c> \lh\su <aes c, aes>8~ <aes c, aes>4 |
 
-    \bass <<{ r2. <c,, bes es,>4 | r2. <d f,>4 | r2. <es d g,>4 } \\
-            { <aes,, es aes,>1 | <d bes es, bes>\arpeggio | <es g, c,>\arpeggio }>> |
-    r2  \treb <f' c'>16 g' aes8  <g f c>4 \arpeggio |
+    \bass <<{ r2. <c,, bes es,>4 | r2. <d f,>4 | r2. <d es>16 g, <es' f> r } \\
+            { <aes,, es aes,>1 | <d bes es, bes>\arpeggio | <d c g c,> }>> |
+    r2  \treb <f' c'>16 g' aes8~  aes16 <g c,>\arpeggio f es |
 
-    \bass <<{ s1 | <d, c aes>16 es <d c aes>8~ <d c aes>2.~ | <d c aes>2. \treb <c' f bes>4~ | <c f bes>2 } \\
-            { <aes,, es aes,>1~ | <aes es aes,> | <c d g, c,> | }>> s4 r8 <c, c,> |
+    \bass <<{ s2. <aes, g es d>4~ | <aes g es d>2 r8 bes es, aes, | } \\
+            { <aes, es aes,>1~ | <aes es aes,> | <d g, c,>~ | <d g, c,>4 }>> r4 s r8 <c, c,> |
     <d' c g c,>1~ |
     <d c g c,>2  s4 r8 <es, bes es,> |
     \time 2/4 <es' bes'>4 <d bes'> |
@@ -421,7 +430,8 @@ lhRefrain = \relative c, {
     <es, aes,>16*2/3 aes <es aes,> aes <es aes,> aes <es aes,> aes <es aes,> aes <es aes,> aes
         <es aes,> aes <es aes,> aes <es aes,> aes <es aes,> aes <es aes,> aes <es aes,> aes |
     <aes, g>16*2/3 es' <aes, g> es' <aes, g> es' <aes, g> es' <aes, g> es' <aes, g> es'
-        \normalsize r2\fermata \bar "|."
+        <aes, g> es' <aes, g> es' <aes, g> es' <aes, g> es' <aes, g> es' <aes, g> es' |
+    \normalsize R1 \bar "|."
 }
 
 
@@ -458,11 +468,11 @@ lhRefrain = \relative c, {
             s1*3 | s2 | s1*4 |
             s1*3\ff | s2 | s1*4 |
             s1*3 | s2 |
-            s1\f | s1*5 | s1-\markup{\italic "poco dim."} | s2 s2\mf |
-            s1-\markup{\italic "morendo"} | s1 | s2 s2\pp | s2
-                s2\sfz | s1 | s4
+            s1\ff | s1*5 | s1-\markup{\italic "poco dim."} | s2 s4\f s16 s8.\sf |
+            s1-\markup{\italic "morendo"} | s1 | s2. s4\pp | s4.
+                s8\sfz s2 | s1 | s4
                 s2.\sfz | s2 |
-            s1\fp\> | s4\! s2.\ppp |
+            s1\fp\> | s2.. s8\! | s1\ppp |
         }
         \new Staff = "LH" {
             \clef bass
