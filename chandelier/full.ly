@@ -19,7 +19,7 @@
     <<
         \new Staff = "Staff_violin" {
             \set Staff.instrumentName = #"Violin"
-            % shortInstrumentName, midiInstrument, etc. may be set here as well
+            \set Staff.midiInstrument = #"violin"
             \tempo "Andante con moto"
             \key b \minor % {
             \violinVerseI
@@ -91,5 +91,8 @@
 %            \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 8) (minimum-distance . 7) (padding . 5))
             \override VerticalAxisGroup.default-staff-staff-spacing.padding = #3
         }
+    }
+    \midi {
+        \tempo 4 = 80
     }
 }

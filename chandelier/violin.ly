@@ -43,4 +43,7 @@
 %            \override VerticalAxisGroup.default-staff-staff-spacing.padding = #3
         }
     }
+    \midi {
+        \tempo 4 = 80
+    }
 }
