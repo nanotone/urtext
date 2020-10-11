@@ -71,7 +71,7 @@ viola = \relative c {
 	% recap
 	d,2 \ff cis4 g' | f e bes' a | g( f) a( c) | f( e8 d) cis2~ |
 	cis8 b cis d cis g' f e |
-	f \sfp f-- f-- e-- e-- e-- e-- f-- |
+	d \sfp f-- f-- e-- e-- e-- e-- f-- |
 	g ^\markup{\italic "simile"} g cis, cis d d e e | % theme I-a
 	d a' a a a g g a | bes bes e, e f f g g |
 	f a g f e bes' a g | a bes bes a a bes bes a |

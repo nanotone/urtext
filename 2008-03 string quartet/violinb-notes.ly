@@ -82,8 +82,8 @@ violinb = \relative c' {
 	d, r a r a'4. b8 | gis2 a4 b | c cis d gis, | a8 d4 \f cis d e8 |
 
 	% recap
-	f4 e2 d4~ | d8 b cis d e d e f | e4 d r2 | r r8 e f g | f4( e) r2 |
-	R1*7 | r2 fis \f | g8
+	f4 e2 d4~ | d8 b cis d e d e f | e4 d r2 | r r8 e f g | f4( e~ e8) g f e |
+	d8\sfp r r4 r2 | R1*6 | r2 fis \f | g8
 	a bes d, ees a, bes c | d4 c8 d ees d ees f | d c d ees c bes c d | % triple
 	g, bes a g fis2~ | fis8 c' bes a g2~ | g8 bes a g f?2~ |
 	f4 ees2 a4 | g( fis2) c'4 |
