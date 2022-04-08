@@ -4,6 +4,7 @@
 	title = "Sheep may safely graze"
     subtitle = "(yet another transcription)"
 	tagline = ##f
+    composer = "J.S. Bach"
     arranger = "arr. Y. Yang"
 }
 \paper {
