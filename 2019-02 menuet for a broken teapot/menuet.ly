@@ -3,6 +3,7 @@
 \header {
     title = "Menuet for a Broken Teapot"
     tagline = ##f
+    composer = "Y. Yang"
 }
 \paper {
     system-count = 11
