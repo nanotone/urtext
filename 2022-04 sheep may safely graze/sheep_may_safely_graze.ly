@@ -146,7 +146,7 @@ upper = \relative c'' {
         <f d>8 <g es> <g es> <bes g> <es, c>8 c16 a es'8 es16 a, |
         <a' c,>8 <bes d,> <bes d,> <c es,> r8 <d bes>32 <es c> <f d>16 <d bes> <bes d,> <f es> a |
     }\\{ 
-        <bes, es,>8 <a es> <g es> <c es,> <f, d> <f es> f <g c,> | c,8 d es4 <d bes'>2 |
+        <bes, g>8 <a f> <g es> <c es,> <f, d> <f es> f <g c,> | c,8 d es4 <d bes'>2 |
         r2 g'8 es d c | f4. g8 d4. c16 bes |
     }>>
 
